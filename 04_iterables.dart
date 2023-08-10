@@ -14,7 +14,7 @@ void main(){
 
 
   // List has a method called where that help to find specific data
-  final numbersGreaterThan5 = numbers.where((num){
+  final numbersGreaterThan5 = numbers.where((int num){
     return num > 3;
   });
   print("Numbers greater than 5: $numbersGreaterThan5");
